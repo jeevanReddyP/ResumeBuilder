@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import API from "../../../../FrontEnd/ResumeBuilder/src/api/api.js";
+import API from "../api/api.js";
 import ResumeList from "../components/ResumeList.jsx";
 import Navbar from "../components/Navbar.jsx";
 

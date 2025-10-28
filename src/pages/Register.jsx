@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import API from "../../../../FrontEnd/ResumeBuilder/src/api/api.js";
+import API from "../api/api.js";
 
 export default function Register() {
   const [name, setName] = useState("");
