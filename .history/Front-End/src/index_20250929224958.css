@@ -1,0 +1,107 @@
+/* Reset & global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container for centered pages */
+.page-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #388e3c;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 12px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #388e3c;
+}
+
+/* Resume List */
+.resume-list {
+  margin-top: 20px;
+}
+
+.resume-item {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #fafafa;
+  transition: 0.3s;
+}
+
+.resume-item:hover {
+  background: #f0f0f0;
+}
+
+/* Resume Editor */
+.resume-editor {
+  margin-top: 20px;
+}
+
+.resume-editor button {
+  margin-top: 10px;
+}
