@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import API from "../../../../FrontEnd/ResumeBuilder/src/api/api.js";
+import API from "../api/api.js";
 
 import bgimage from "../assets/images/Bg-img.png";
 export default function Login() {
