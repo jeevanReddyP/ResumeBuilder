@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import API from "../../../../FrontEnd/ResumeBuilder/src/api/api.js";
+import API from "../api/api.js";
 import ResumeForm from "../components/ResumeForm";
 import SectionEditor from "../components/SectionEditor.jsx";
 import ResumePreview from "../components/ResumePreview";

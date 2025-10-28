@@ -1,6 +1,5 @@
 import { useState } from "react";
-import API from "../../../../FrontEnd/ResumeBuilder/src/api/api.js";
-
+import API from "../api/api.js";
 export default function SectionEditor({ resume, setResume }) {
   const [newWork, setNewWork] = useState({
     company: "",
