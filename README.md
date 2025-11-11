@@ -19,44 +19,24 @@ Frontend: https://resume-builder-front-end.netlify.app/
 📦 Installation & Setup
 
 Clone the repository
-git clone https://github.com/your-username/resume-builder.git
+git clone https://github.com/jeevanReddyP/ResumeBuilder
 
 Frontend setup
-cd frontend
+cd FrontEnd/ResumeBuilder
 npm install
 npm run dev
 
 Backend setup
-cd backend
+cd Backend
 npm install
 npm start
 
 📁 Folder Structure
 
-resume-builder/
-frontend/ (React UI)
-backend/ (Node.js + Express API)
+RESUMEBUILDER/
+Frontend/ (React UI)
+Backend/ (Node.js + Express API)
 README.md
-
-🔐 Environment Variables
-
-Create a .env file in backend folder:
-
-MONGO_URI = your_mongodb_connection
-JWT_SECRET = your_secret_key
-PORT = 5000
-
-📡 API Endpoints
-
-Auth Routes
-POST /signup
-POST /login
-
-Resume Routes
-POST /resume
-GET /resume/:userId
-PUT /resume/:id
-DELETE /resume/:id
 
 🛠 How It Works
 
