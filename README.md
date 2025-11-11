@@ -1,16 +1,95 @@
-# React + Vite
+<h1 align="center">📄 Resume Builder App</h1> <p align="center">A professional MERN stack resume-building application with real-time preview, PDF download, templates, and secure authentication.</p>
+🚀 Live Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend: https://resume-builder-front-end.netlify.app/
 
-Currently, two official plugins are available:
+🧰 Tech Stack
+<p> <img src="https://skillicons.dev/icons?i=react,tailwind,js,nodejs,express,mongodb,git,github,vscode" /> </p>
+📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Clean and modern UI
+✅ Real-time resume preview
+✅ Multiple resume templates
+✅ Download as PDF
+✅ Authentication (Signup/Login)
+✅ Save and manage resumes
+✅ Fully responsive
+✅ MERN stack
 
-## React Compiler
+📦 Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clone the repository
+git clone https://github.com/your-username/resume-builder.git
 
-## Expanding the ESLint configuration
+Frontend setup
+cd frontend
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend setup
+cd backend
+npm install
+npm start
+
+📁 Folder Structure
+
+resume-builder/
+frontend/ (React UI)
+backend/ (Node.js + Express API)
+README.md
+
+🔐 Environment Variables
+
+Create a .env file in backend folder:
+
+MONGO_URI = your_mongodb_connection
+JWT_SECRET = your_secret_key
+PORT = 5000
+
+📡 API Endpoints
+
+Auth Routes
+POST /signup
+POST /login
+
+Resume Routes
+POST /resume
+GET /resume/:userId
+PUT /resume/:id
+DELETE /resume/:id
+
+🛠 How It Works
+
+User signs up or logs in
+
+User fills resume details
+
+Live preview updates instantly
+
+User selects a template
+
+Resume downloaded as PDF
+
+Saved resumes can be edited anytime
+
+🎯 Future Enhancements
+
+More templates
+Drag and drop sections
+Theme selection
+AI suggestions
+Multi-language support
+
+🏷 Topics
+
+nodejs
+javascript
+reactjs
+tailwindcss
+express
+mongodb
+mern
+
+📜 License
+
+Open source project. Free to use.
